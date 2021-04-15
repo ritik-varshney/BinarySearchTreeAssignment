@@ -93,6 +93,9 @@ public class MyBinarySearchTree<E extends Comparable<E>> implements BinarySearch
 
     @Override
     public void reverseInOrder(Node<E> node) {
+        reverseInOrder(node.getRight());
+        System.out.printf(node.getData());
+        reverseInOrder(node.getLeft());
 
     }
 
