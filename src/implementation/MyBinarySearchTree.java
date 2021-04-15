@@ -17,7 +17,7 @@ public class MyBinarySearchTree<E extends Comparable<E>> implements BinarySearch
     }
 
     @Override
-    public boolean search(E searchElement) {
+    public boolean  search(E searchElement) {
         return false;
     }
 
