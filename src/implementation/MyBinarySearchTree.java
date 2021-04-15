@@ -8,7 +8,7 @@ public class MyBinarySearchTree<E extends Comparable<E>> implements BinarySearch
     Node<E> root = null;
 
     public Node<E> getRoot() {
-        return root;
+        return root ;
     }
 
     @Override
